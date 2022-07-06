@@ -1,0 +1,61 @@
+/* =================container css start================ */
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+#container {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.bg {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 80px 300px;
+}
+
+.bg h1 {
+    font-weight: 500;
+    font-size: 55px;
+    width: 650px;
+}
+
+.para {
+    font-size: 18px;
+    width: 500px;
+    padding-left: 70px;
+    font-weight: 300;
+}
+
+.donate-now {
+    background: rgb(255, 104, 87);
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-left: 250px;
+}
+
+/* =================container css end================ */
+
+/* =================donate-today css start================ */
+#donate-today {
+    background: rgb(152, 255, 176);
+    margin: 150px 0px;
+    text-align: center;
+}
+
+#donate-today h2 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/* =================donate-today css end================ */
