@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* =================container css start================ */
 body {
     font-family: 'Oswald', sans-serif;
@@ -41,16 +46,20 @@ section {
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 22px;
-    margin-left: 250px;
+    margin-top: 50px;
+    display: inline-block;
+    color: white;
+
 }
 
 /* =================container css end================ */
 
 /* =================donate-today css start================ */
 #donate-today {
-    background: rgb(152, 255, 176);
-    margin: 150px 0px;
+    margin: 150px 0px 0px;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #donate-today h2 {
@@ -58,4 +67,45 @@ section {
     font-size: 40px;
 }
 
+#donate-today .para1 {
+    width: 600px;
+    padding: 20px 0px 40px 40px;
+    color: rgb(85, 85, 85);
+}
+
+#donate-today li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 20px;
+    background: rgb(241, 241, 241);
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 10px 50px;
+    width: 80px;
+    border-radius: 5px;
+    color: rgb(116, 116, 116);
+}
+
+#donate-today .average-amount {
+    border: 2px solid rgb(255, 87, 68);
+    background: rgb(255, 224, 222);
+    color: rgb(255, 107, 91);
+}
+
+#donate-today .taka {
+    color: rgb(151, 151, 151);
+    border-bottom: 2px solid rgb(151, 151, 151);
+}
+
+#donate-today .donate-now {
+    margin-top: 50px;
+}
+
 /* =================donate-today css end================ */
+
+/* =================donate-plan css start================ */
+#donate-plan {
+    background: rgb(165, 255, 250);
+}
+
+/* =================donate-plan css end================ */
