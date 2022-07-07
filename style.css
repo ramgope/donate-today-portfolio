@@ -201,9 +201,11 @@ section {
 
 /* =================my-updates css start================ */
 #my-updates {
-    margin: 100px 0px;
-    background: rgb(223, 255, 212);
+    margin-top: 150px;
+    /* background: rgb(223, 255, 212); */
     text-align: center;
+    width: 100%;
+    height: 300px;
 }
 
 #my-updates h2 {
@@ -221,8 +223,52 @@ section {
 
 #my-updates .box {
     width: 60%;
-    height: 200px;
-    background: rgb(255, 178, 255);
+    /* background: rgb(255, 178, 255); */
     margin-top: 40px;
     display: inline-block;
-    /* =================my-updates css end================ */
+}
+
+#my-updates .box li {
+    list-style: none;
+    background: rgb(255, 127, 127);
+    height: 30px;
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0px 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#my-updates .box .email {
+    width: 30%;
+    background: rgb(204, 204, 204);
+}
+
+#my-updates .box .subscribe {
+    width: 20%;
+}
+
+/* =================my-updates css end================ */
+
+/* =================footer css start================ */
+#humble {
+    margin-top: 50px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+#humble .be-humble {
+    color: crimson;
+    font-family: 'Splash', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+#humble .do-it {
+    color: white;
+}
+
+/* =================footer css end================ */
