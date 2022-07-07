@@ -277,24 +277,22 @@ section {
     display: inline-block;
 }
 
-#my-updates .box li {
-    list-style: none;
-    background: rgb(255, 127, 127);
-    height: 30px;
-    width: 100%;
-    display: inline-block;
-    margin: 80px 0px 30px;
-    border-radius: 5px;
-    text-align: center;
-}
-
 #my-updates .box .email {
     width: 30%;
     background: rgb(204, 204, 204);
+    border-radius: 5px;
+    border: 0px solid rgb(204, 204, 204);
+    margin: 80px 0px;
+    padding: 8px 0px;
 }
 
 #my-updates .box .subscribe {
     width: 20%;
+    background: rgb(255, 127, 127);
+    border-radius: 5px;
+    border: 0px solid rgb(255, 127, 127);
+    margin: 80px 0px;
+    padding: 8px 0px;
 }
 
 /* =================my-updates css end================ */
